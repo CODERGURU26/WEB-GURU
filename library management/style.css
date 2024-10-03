@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.bgi {
+    background-image: url(lib.avif);
+height: 100vh;
+width: 100vw;
+background-repeat: repeat-x;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+
+.box{
+    background-color: rgba(142, 2, 2, 0.607);
+    height: 55vh;
+    width: 30vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    position: absolute;
+    
+}
+.login{
+    font-weight: 900;
+    font-size: x-large;
+}
+input{
+    background-color: rgba(6, 6, 6, 0.566);
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px;
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 5px;
+}
+h2{
+    font-weight: 900;
+    text-align: center; 
+    position: relative; 
+      
+}
+.login{
+    text-align: center;
+}
+span{
+    font-weight: 900;
+}
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    margin: auto;
+    font-size: larger;
+    background-color: rgba(24, 123, 210, 0.613);
+    color: black;
+    padding: 5px 10px;
+    gap: 20px;
+}
+.text{
+    text-align: center;
+}
+a{
+    color: rgb(240, 5, 5);
+}
+@media only screen and (min-width:355px){
+    .bgi{
+        background-image: url(lib.avif);
+    }
+    .box{
+        flex-direction:column ;
+    }
+}
+.box{
+    display: flex;
+}
